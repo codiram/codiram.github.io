@@ -16,10 +16,12 @@ h1{
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: "IBM Plex Mono", monospace;
     background-color: rgba(0, 0, 0, 0.95);
     color: aliceblue;
     margin: 2rem;
+    
 }
 header, section{
     margin-bottom: 2.5rem;
