@@ -10,29 +10,27 @@
 
 h1{
     text-align: center;
+    margin: 2rem;
 }
 
-.btrhr{
-    height: 1.5vw;
-    color: darkcyan;
-    width: calc(100vw - 10%);
-}
 body{
     font-family: "IBM Plex Mono", monospace;
     background-color: rgba(0, 0, 0, 0.95);
     color: aliceblue;
     margin: 2rem;
+    margin: 0 20vw;
 }
-section{
+header, section{
     margin: 2.5rem;
 }
+
 
 .reference{
     list-style-type: none;
     counter-reset: list-counter;
 }
 
-.reference li>a{
+a{
     color: #265ec5;
     text-decoration: none;
 }
@@ -47,20 +45,26 @@ section{
     content: "(" counter(list-counter) ") ";
 }
 
-footer > h3{
-    margin: 1.5rem;
-}
 
-li > a:hover{
+ a:hover{
     color: #79bd2c;
 }
 
-.profile{
+
+.profile>a{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .logo{
-    width: 5%;
+    width: 1.3rem;
+    margin: 10px;
     aspect-ratio: 1;
+}
+
+@media (max-width: 650px) {
+    body{
+        margin: 0 3vw;
+    }
+
 }
