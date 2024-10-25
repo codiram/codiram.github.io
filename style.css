@@ -63,12 +63,14 @@ a{
 @media (max-width: 650px) {
     body{
         margin: 0 3vw;
+        font-size: 1.3rem;
     }
 }
 
 @media (min-width: 300px) {
     body{
         margin: 0 3vw;
+        font-size: 1.3rem;
     }
 
 }
