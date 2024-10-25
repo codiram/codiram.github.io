@@ -67,17 +67,10 @@ a{
     aspect-ratio: 1;
 }
 
+
 @media (max-width: 650px) {
-    body{
-        margin: 0 3vw;
+    body {
         font-size: 1.3rem;
+        padding: 0 2vw;
     }
-}
-
-@media (min-width: 300px) {
-    body{
-        margin: 0 3vw;
-        font-size: 1.3rem;
-    }
-
 }
