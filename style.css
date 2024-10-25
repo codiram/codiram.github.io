@@ -26,8 +26,9 @@ body{
     
 }
 header, section{
-    margin-bottom: 2.5rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem 0;
+    max-width: 800px;
+    width: 100%; 
 }
 
 
