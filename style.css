@@ -13,6 +13,8 @@ h1{
 }
 
 body{
+    display: flex;
+    justify-content: center;
     font-family: "IBM Plex Mono", monospace;
     background-color: rgba(0, 0, 0, 0.95);
     color: aliceblue;
