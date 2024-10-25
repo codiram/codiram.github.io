@@ -49,8 +49,6 @@ a{
  a:hover{
     color: #79bd2c;
 }
-
-
 .profile>a{
     display: flex;
     justify-content: center;
@@ -63,6 +61,12 @@ a{
 }
 
 @media (max-width: 650px) {
+    body{
+        margin: 0 3vw;
+    }
+}
+
+@media (min-width: 300px) {
     body{
         margin: 0 3vw;
     }
