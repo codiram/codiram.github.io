@@ -21,7 +21,7 @@ body{
     font-family: "IBM Plex Mono", monospace;
     background-color: rgba(0, 0, 0, 0.95);
     color: aliceblue;
-    width: 100%;
+    width: 100dvh;
     padding: 0 1rem;
     
 }
