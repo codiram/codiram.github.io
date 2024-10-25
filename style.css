@@ -21,6 +21,7 @@ body{
     background-color: rgba(0, 0, 0, 0.95);
     color: aliceblue;
     margin: 2rem;
+    padding: 0 1rem;
     
 }
 header, section{
